@@ -1,0 +1,121 @@
+
+body {
+    background-color: #ffffff; /* Color fondo de la página */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Tipografía base */
+    margin: 0;
+}
+
+header {
+    background-color: #cc6a6a; /* Color en el head de la pagina */
+    text-align: center;
+    padding: 30px;
+    position: relative; /* Para posicionar la imagen */
+}
+
+/* ======= barra de navegación ======= */
+nav ul {
+    display: flex; 
+    justify-content: center; /* Centra el texto de la barra */
+    background-color: #363436; /* Color fondo de la barra */
+    color: #ffffff; /* Color letras barra  */
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 15px 25px; /* Espaciado en el menú */
+    letter-spacing: 2px; /* Esto aumenta la distancia entre letras */
+}
+
+
+nav li:hover {
+    background-color: #cac4cc; /* Color al pasar el mouse */
+    cursor: pointer;
+}
+/* ====================================*/
+
+/* =================== Secciones y pie de página ============== */
+section, footer {
+    margin: 70px auto;
+    max-width: 900px;
+    padding: 70px;
+    background: #bdaeae;
+    border-radius: 40px;
+    color: #000000; /* Cambia el color de las letras de las cajas */
+}
+
+/* ====== Servicios en cajas ========= */
+
+.contenedor_servicios {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-top: -10px;
+}
+
+/* Estilos para las cajas de servicios */ 
+.caja_servicio {
+    background: #f3e9e9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;    
+}
+/* ====================================*/
+
+/* == Estilos para los títulos y párrafos dentro de las cajas de servicios == */
+
+/* titulos de las cajas */
+.caja_servicio h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* === párrafo / subtitulo de las cajas === */
+
+.caja_servicio p {
+    margin: 0;
+    font-size: 14px;
+}
+/* ================================ */ 
+
+
+/* === titulo principal y subtitulo === */
+
+#titulo_principal {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Tipo de letra del titulo principal */
+    font-weight: bold;
+    font-size: 40px;
+    color: #010a03cb;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -10px ; /* El titulo esta mas cerca del margen(de arriba) de la pagina */
+}
+
+#subtitulo {
+    color: #000000; 
+    font-size: 16px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* ======== */
+
+#logo_header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 150px;
+    width: auto;
+}
+
+#titulo_servicios {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
